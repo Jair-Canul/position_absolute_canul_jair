@@ -1,0 +1,32 @@
+@media (max-width: 480px){
+    .contenedor_cartas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carta{
+        max-width: 100%;
+    }
+    .etiquetas{
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+    }
+
+    .categoria{
+        position: static;
+    }
+    .fecha{
+        position: static;
+    }
+    .contenido{
+        height: auto;
+    }
+    .entradas{
+        display: none;
+    }
+}
